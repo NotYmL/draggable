@@ -5,4 +5,4 @@ async function draggable(grabP, move){let lastPosX = null;let lastPosY = null;le
 ```
 draggable(GrabPiont, ElementToMove)
 
-![alt text]([http://url/to/img.png](https://media.discordapp.net/attachments/996444271219585077/996485765796204694/demo.png))
+![alt text](https://media.discordapp.net/attachments/996444271219585077/996485765796204694/demo.png)
