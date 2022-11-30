@@ -14,12 +14,8 @@ async function draggable(grabP, move){
             
             move.style.left = `${move.offsetLeft - (lastPosX - e.clientX)}px`;
             move.style.top = `${move.offsetTop  - (lastPosY - e.clientY)}px`;
-    
-            lastPosY=e.clientY;
-            lastPosX=e.clientX;
-        } else {
-            lastPosX=e.clientX; 
-            lastPosY=e.clientY;
         }
+        lastPosX=e.clientX; 
+        lastPosY=e.clientY;
     })
 }
